@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Informatics College</title>
+	<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="Keywords" content="College, Pokhara, IT College, Lions Marga, college in pokhara, nepalIT">
+ <meta name="author" content="Bishworaj Poudel">
+ <link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="javascript/js.js"></script>
+<script src="javascript/validatename.js"></script>
+
+</head>
+<body class="body">
+<header class="mainheader">
+	<img src="images/logo2.png">
+	<content id="search">
+		<form>
+  <input type="text" name="search" placeholder="Search anything..." onclick="window.location.href='search.html'">
+</form>
+	</content>
+<nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="course.html">Course</a></li>
+      <li><a href="download.html">Download</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="login.html">Login</a></li>
+      
+    </ul> 
+  </nav>
+</header>
+
+[um-iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3807.4126499574345!2d78.3194368!3d17.3919735!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb94eba8ad7c87%3A0xb78f51ed556f7cc5!2sChaitanya%20Bharathi%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1639110532338!5m2!1sen!2sin" width="6" height="4" style="border:0;" allowfullscreen="" loading="lazy"]
+<h3>Contact</h3>
+<h4>CHAITANYA BHARATHI INSTITUTE OF TECHNOLOGY<br>
+</h4>
+Osman Sagar Rd, Kokapet, Gandipet, Telangana 500075
+<pre>
+Phone : 084669 97201<br>
+Email :   principal@cbit.ac.in<br>
+Facebook : https://www.facebook.com/CBIThyderabad/<br>
+</pre>
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<br>
+<br>
+
+<strong>If you are student please enter your student number:</strong>
+<center>
+<input id="numb">
+
+<button type="button" onclick="myFunction()">Submit</button>
+
+<p id="demo"></p>
+</center>
+<hr>
+<footer class="mainFooter">
+  <p>Copyright &copy <a href="https://www.facebook.com/IamBRP">Bishworaj Poudel</a> </p>
+  <center>
+  <a href="https://www.facebook.com/IamBRP/">Facebook</a>
+  <a href="https://www.twitter.com/IamBRP/">Twitter</a>
+  <a href="https://www.youtube.com/IamBRP/">Youtube</a>
+  </center>
+</footer>
+<script>
+function myFunction() {
+    var x, text;
+
+    // Get the value of the input field with id="numb"
+    x = document.getElementById("numb").value;
+
+    // If x is Not a Number or less than one or greater than 10
+    if (isNaN(x) || x < 1 || x > 1000) {
+        text = "Input not valid";
+    } else {
+        text = "Input OK";
+    }
+    document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+</body>
+</html> 
+<script type="text/javascript">
+  document.title="Contact";
+</script>
+</body>
+
+</html>
